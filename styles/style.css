@@ -1,0 +1,32 @@
+body{
+    /*background-color:rgba(187, 173, 173, 0.829);*/
+    overflow-x: hidden;
+    margin: 0;
+	/*background-image: url("../images/56488445_403.jpg");*/
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar { 
+    display: none;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+section.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.title h1 {
+    width: 750px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 256px;
+}
