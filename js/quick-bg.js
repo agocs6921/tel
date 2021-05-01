@@ -6,11 +6,6 @@ document.querySelectorAll("[bg]").forEach((element) => {
     // Megnézzük hogy ürese és ha igen akkor vissza megyünk
     if (element.getAttribute("bg") == null) return;
 
-    /* Megpróbáljuk beállítani a hátteret a 'style' attribútummal
-    mert valamiért element.style az nem működött :P */
-    try{
-        element.setAttribute("style", `background-image: url(${element.getAttribute("bg")}); ${element.getAttribute("style") ? element.getAttribute("style") : ""}`);
-    }catch(err){
-        console.log(err);
-    }
+    // Beállítjuk a hátteret
+    element.style.backgroundImage = `url(${element.getAttribute("bg")})`;
 })
