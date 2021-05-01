@@ -7,6 +7,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script src="js/quick-bg.js" defer></script>
+    <script src="js/pool-calc.js" defer></script>
     <title>A víz</title>
 </head>
 <body>
@@ -70,6 +71,33 @@
             </div>
             <div style="background-repeat: no-repeat; background-position-y: bottom; background-size: contain;" class="type col-xl-4 col-12 p-0" bg="images/steam.png">
                 <h1 class="display-4 text-center"><b>Gáz</b></h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="display-3 text-center m-0"><b>Számológép</b></h1>
+        <h1 class="display-6 text-center m-0 mb-5">Mennyi ember férne el egy medencében?</h1>
+        <div class="w-25 d-block m-auto" id="calculator">
+            <div class="mb-3">
+                <label class="form-label" for="length">Hossz</label>
+                <input onchange="calculator()" class="form-control" id="length" type="number" placeholder="A medence hossza" aria-describedby="length-explanation">
+                <div id="length-explanation" class="form-text">m-ben add meg!</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="width">Szélesség</label>
+                <input onchange="calculator()" class="form-control" id="width" type="number" placeholder="A medence szélessége" aria-describedby="width-explanation">
+                <div id="width-explanation" class="form-text">m-ben add meg!</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="depth">Mélység</label>
+                <input onchange="calculator()" class="form-control" id="depth" type="number" placeholder="A medence mélysége" aria-describedby="depth-explanation">
+                <div id="depth-explanation" class="form-text">m-ben add meg!</div>
+            </div>
+            <div>
+                <span id="result" class="lead"><b>...</b> ember fér el egy <b>...</b> m<sup>3</sup>-es medencében</span>
+            </div>
+            <div>
+                <img class="img-fluid d-block m-auto" src="images/swimming-pool.png" alt="Uszóhely" title="Medence">
             </div>
         </div>
     </section>
