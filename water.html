@@ -7,6 +7,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <script src="js/quick-bg.js" defer></script>
+    <script src="js/pool-calc.js" defer></script>
+    <script src="js/human-calc.js" defer></script>
     <title>A víz</title>
 </head>
 <body>
@@ -17,11 +19,11 @@
         </div>
     </div>
     <section bg="images/Water-Overview_i1140.jpg" class="title">
-        <h1 style="color: #fff!important; text-shadow: 0 0 5px #fff;">A víz</h1>
+        <h1 class="text-center" style="color: #fff; text-shadow: 0 0 5px #fff;">A víz</h1>
     </section>
-    <section>
+    <section class="special-2">
         <div class="row">
-            <div class="p-5 col-6 vh-100">
+            <div class="p-5 col-xl-6 col-12 vh-100">
                 <h1 class="text-center display-1"><b>A jó</b></h1>
                 <div class="display-3 d-flex flex-column justify-content-evenly vh-80">
                     <div>
@@ -41,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p-5 col-6 bg-dark text-white vh-100">
+            <div class="p-5 col-xl-6 col-12 bg-dark text-white vh-100">
                 <h1 class="text-center display-1"><b>A rossz</b></h1>
                 <div class="display-3 d-flex flex-column justify-content-evenly vh-80">
                     <div>
@@ -55,7 +57,68 @@
                     <div>
                         Limitált mennyiségben van
                     </div>
+                    <div>
+                        Hitler is ivott vizet
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="special-3">
+        <h1 class="display-3 text-center bg-dark text-white m-0">A víz állapotai</h1>
+        <div class="row">
+            <div style="background-repeat: no-repeat; background-position-y: bottom; background-size: contain;" class="type col-xl-4 col-12 p-0" bg="images/ice.png">
+                <h1 class="display-4 text-center"><b>Szilárd</b></h1>
+            </div>
+            <div style="background-repeat: no-repeat; background-position-y: bottom; background-size: contain;" class="type col-xl-4 col-12 p-0" bg="images/water_PNG50235.png">
+                <h1 class="display-4 text-center"><b>Folyadék</b></h1>
+            </div>
+            <div style="background-repeat: no-repeat; background-position-y: bottom; background-size: contain;" class="type col-xl-4 col-12 p-0" bg="images/steam.png">
+                <h1 class="display-4 text-center"><b>Gáz</b></h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="display-3 text-center m-0"><b>Számológép</b></h1>
+        <h1 class="display-6 text-center m-0 mb-5">Mennyi ember férne el egy medencében?</h1>
+        <div class="w-25 d-block m-auto" id="calculator">
+            <div class="mb-3">
+                <label class="form-label" for="length">Hossz</label>
+                <input onchange="calculator()" class="form-control" id="length" type="number" placeholder="A medence hossza" aria-describedby="length-explanation">
+                <div id="length-explanation" class="form-text">m-ben add meg!</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="width">Szélesség</label>
+                <input onchange="calculator()" class="form-control" id="width" type="number" placeholder="A medence szélessége" aria-describedby="width-explanation">
+                <div id="width-explanation" class="form-text">m-ben add meg!</div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="depth">Mélység</label>
+                <input onchange="calculator()" class="form-control" id="depth" type="number" placeholder="A medence mélysége" aria-describedby="depth-explanation">
+                <div id="depth-explanation" class="form-text">m-ben add meg!</div>
+            </div>
+            <div>
+                <span id="result" class="lead"><b>...</b> ember fér el egy <b>...</b> m<sup>3</sup>-es medencében</span>
+            </div>
+            <div>
+                <img class="img-fluid d-block m-auto" src="images/swimming-pool.png" alt="Uszóhely" title="Medence">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h1 class="display-3 text-center m-0"><b>Számológép</b></h1>
+        <h1 class="display-6 text-center m-0 mb-5">Mennyi víz férne el <i>n</i> mennyiségű felnőtt emberben?</h1>
+        <div class="w-25 d-block m-auto" id="calculator">
+            <div class="mb-3">
+                <label class="form-label" for="human-count">Emberek száma</label>
+                <input onchange="human_calculator(this, 'human-result')" class="form-control" id="human-count" type="number" placeholder="Az emberek száma" aria-describedby="human-explanation">
+                <div id="human-explanation" class="form-text">Számban add meg!</div>
+            </div>
+            <div>
+                <span id="human-result" class="lead"><b>...</b> liter víz férne el <b>...</b> felnőtt emberben</span>
+            </div>
+            <div>
+                <img class="img-fluid d-block m-auto" src="images/swimming-pool.png" alt="Uszóhely" title="Medence">
             </div>
         </div>
     </section>
