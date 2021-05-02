@@ -1,3 +1,6 @@
+/**
+ * Agócs Kevin írta
+ */
 // Vissza ad nekünk egy számot, nem tudom mire tudnád használni lol
 function get_current_year() {
     return new Date().getFullYear();

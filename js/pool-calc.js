@@ -1,3 +1,6 @@
+/**
+ * Agócs Kevin írta
+ */
 // Az átlag ember térfogatának állandója
 var human_volume = 0.062;
 // Számoló gép függvény

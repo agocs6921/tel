@@ -1,3 +1,6 @@
+/**
+ * Agócs Kevin írta
+ */
 /* Ez a script ez egy gyors háttér beállítást csinál
 a 'bg' egyedi attribútum segítségével */
 // Lekérjük az összes 'bg' attribútumú elemet és átmegyünk mindegyikek

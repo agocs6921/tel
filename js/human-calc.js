@@ -1,3 +1,6 @@
+/**
+ * Agócs Kevin írta
+ */
 /* Ez a fájl haszontalan, ne használd xD  */
 function human_calculator(value_source, output_target) {
     var value = value_source["value"];
