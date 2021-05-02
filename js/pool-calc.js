@@ -19,6 +19,8 @@ function calculator() {
 }
 // Függvény a térfogat számításra
 function pool_calc(length, width, depth) {
+    // Egy állandóként kiszámoljuk a térfogatát
     var volume = length * width * depth;
+    // Vissza küldjük az eredményeket
     return [volume / human_volume, volume];
 }
