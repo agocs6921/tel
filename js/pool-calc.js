@@ -12,7 +12,7 @@ function calculator() {
         document.querySelector("#depth")["value"]
     ];
     var l = values[0], w = values[1], d = values[2];
-    // Ellenőrzünk
+    // Ellenőrizzünk
     if (!(l && w && d))
         return;
     // Kiszámoljuk

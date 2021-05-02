@@ -1,7 +1,7 @@
 /**
  * Agócs Kevin írta
  */
-/* Ez a script ez egy gyors háttér beállítást csinál
+/* Ez a script ez egy gyors háttér beállítást ér el
 a 'bg' egyedi attribútum segítségével */
 // Lekérjük az összes 'bg' attribútumú elemet és átmegyünk mindegyikek
 document.querySelectorAll("[bg]").forEach(function (element) {
