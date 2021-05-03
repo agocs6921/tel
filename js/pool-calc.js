@@ -15,20 +15,16 @@ const human_volume = 0.062;
  */
 const pool_calc = (length, width, depth) => [(length * width * depth) / human_volume, length * width * depth]; // Mindenhol fogok használni nyíl függvényeket ahol tudok és maga nem tud megállítani, hahaha
 /**
- * Számoló gép függvény
+ * Számológép függvény
  * @returns {void}
  */
 function calculator() {
-    /**
-     * Összes szám ami kell nekünk
-     * @type {number[]}
-     */
-    const values = [
+    // Az értékeink amik kellenek nekünk
+    const [l, w, d] = [
         document.querySelector("#length")["value"],
         document.querySelector("#width")["value"],
         document.querySelector("#depth")["value"]
     ];
-    const [l, w, d] = values;
     // Ellenőrizzünk hogy értékek léteznek
     if (!(l && w && d))
         return;
