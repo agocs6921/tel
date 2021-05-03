@@ -1,8 +1,8 @@
 body{
-    /*background-color:rgba(187, 173, 173, 0.829);*/
+    /* background-color:rgba(187, 173, 173, 0.829); */
     overflow-x: hidden; /* Kikapcsoljuk az alsó slidert */
     margin: 0; /* Elszedjük az alap margót, amit már a bootstrap már megcsinál helyettünk de nem baj, azért itt van */ 
-	/*background-image: url("../images/56488445_403.jpg");*/
+	/* background-image: url("../images/56488445_403.jpg"); */
     -ms-overflow-style: none; /* Eltávolítjuk a oldalsó slidert */
     scrollbar-width: none; /* Ugyan az mint az előző */
 }
@@ -27,15 +27,10 @@ section.title {
     background-position: center;
 }
 
-/* Nem fogom ezt se kommentálni */
+/* Nem fogom ezt kommentálni */
 section.title h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 256px;
-}
-
-/* Ez kellett nekem lol */
-.vh-80 {
-    height: 80vh!important;
 }
 
 /* Oldal sáv */
@@ -61,22 +56,22 @@ div.type{
 
 @media only screen and (max-width: 1200px) {
     section.special-1 {
-        height: 100vh;
+        height: 100vh!important;
     }
     section.special-2 {
-        height: 200vh;
+        height: 200vh!important;
     }
     section.special-3 {
-        height: 300vh;
+        height: 300vh!important;
     }
     section.special-4 {
-        height: 400vh;
+        height: 400vh!important;
     }
     section.special-5 {
-        height: 500vh;
+        height: 500vh!important;
     }
     section.special-6 {
-        height: 600vh;
+        height: 600vh!important;
     }
     /* Ez water.html-hez kellett lol */
     div.type{
@@ -85,4 +80,307 @@ div.type{
     #calculator {
         width: 50%!important;
     }
+}
+/* asd */
+/* Ez kellett nekem lol
+ * ja és  ne görgess */
+.vh-1 {
+	height: 1vh!important;
+}
+.vh-2 {
+	height: 2vh!important;
+}
+.vh-3 {
+	height: 3vh!important;
+}
+.vh-4 {
+	height: 4vh!important;
+}
+.vh-5 {
+	height: 5vh!important;
+}
+.vh-6 {
+	height: 6vh!important;
+}
+.vh-7 {
+	height: 7vh!important;
+}
+.vh-8 {
+	height: 8vh!important;
+}
+.vh-9 {
+	height: 9vh!important;
+}
+.vh-10 {
+	height: 10vh!important;
+}
+.vh-11 {
+	height: 11vh!important;
+}
+.vh-12 {
+	height: 12vh!important;
+}
+.vh-13 {
+	height: 13vh!important;
+}
+.vh-14 {
+	height: 14vh!important;
+}
+.vh-15 {
+	height: 15vh!important;
+}
+.vh-16 {
+	height: 16vh!important;
+}
+.vh-17 {
+	height: 17vh!important;
+}
+.vh-18 {
+	height: 18vh!important;
+}
+.vh-19 {
+	height: 19vh!important;
+}
+.vh-20 {
+	height: 20vh!important;
+}
+.vh-21 {
+	height: 21vh!important;
+}
+.vh-22 {
+	height: 22vh!important;
+}
+.vh-23 {
+	height: 23vh!important;
+}
+.vh-24 {
+	height: 24vh!important;
+}
+.vh-25 {
+	height: 25vh!important;
+}
+.vh-26 {
+	height: 26vh!important;
+}
+.vh-27 {
+	height: 27vh!important;
+}
+.vh-28 {
+	height: 28vh!important;
+}
+.vh-29 {
+	height: 29vh!important;
+}
+.vh-30 {
+	height: 30vh!important;
+}
+.vh-31 {
+	height: 31vh!important;
+}
+.vh-32 {
+	height: 32vh!important;
+}
+.vh-33 {
+	height: 33vh!important;
+}
+.vh-34 {
+	height: 34vh!important;
+}
+.vh-35 {
+	height: 35vh!important;
+}
+.vh-36 {
+	height: 36vh!important;
+}
+.vh-37 {
+	height: 37vh!important;
+}
+.vh-38 {
+	height: 38vh!important;
+}
+.vh-39 {
+	height: 39vh!important;
+}
+.vh-40 {
+	height: 40vh!important;
+}
+.vh-41 {
+	height: 41vh!important;
+}
+.vh-42 {
+	height: 42vh!important;
+}
+.vh-43 {
+	height: 43vh!important;
+}
+.vh-44 {
+	height: 44vh!important;
+}
+.vh-45 {
+	height: 45vh!important;
+}
+.vh-46 {
+	height: 46vh!important;
+}
+.vh-47 {
+	height: 47vh!important;
+}
+.vh-48 {
+	height: 48vh!important;
+}
+.vh-49 {
+	height: 49vh!important;
+}
+.vh-50 {
+	height: 50vh!important;
+}
+.vh-51 {
+	height: 51vh!important;
+}
+.vh-52 {
+	height: 52vh!important;
+}
+.vh-53 {
+	height: 53vh!important;
+}
+.vh-54 {
+	height: 54vh!important;
+}
+.vh-55 {
+	height: 55vh!important;
+}
+.vh-56 {
+	height: 56vh!important;
+}
+.vh-57 {
+	height: 57vh!important;
+}
+.vh-58 {
+	height: 58vh!important;
+}
+.vh-59 {
+	height: 59vh!important;
+}
+.vh-60 {
+	height: 60vh!important;
+}
+.vh-61 {
+	height: 61vh!important;
+}
+.vh-62 {
+	height: 62vh!important;
+}
+.vh-63 {
+	height: 63vh!important;
+}
+.vh-64 {
+	height: 64vh!important;
+}
+.vh-65 {
+	height: 65vh!important;
+}
+.vh-66 {
+	height: 66vh!important;
+}
+.vh-67 {
+	height: 67vh!important;
+}
+.vh-68 {
+	height: 68vh!important;
+}
+.vh-69 {
+	height: 69vh!important;
+}
+.vh-70 {
+	height: 70vh!important;
+}
+.vh-71 {
+	height: 71vh!important;
+}
+.vh-72 {
+	height: 72vh!important;
+}
+.vh-73 {
+	height: 73vh!important;
+}
+.vh-74 {
+	height: 74vh!important;
+}
+.vh-75 {
+	height: 75vh!important;
+}
+.vh-76 {
+	height: 76vh!important;
+}
+.vh-77 {
+	height: 77vh!important;
+}
+.vh-78 {
+	height: 78vh!important;
+}
+.vh-79 {
+	height: 79vh!important;
+}
+.vh-80 {
+	height: 80vh!important;
+}
+.vh-81 {
+	height: 81vh!important;
+}
+.vh-82 {
+	height: 82vh!important;
+}
+.vh-83 {
+	height: 83vh!important;
+}
+.vh-84 {
+	height: 84vh!important;
+}
+.vh-85 {
+	height: 85vh!important;
+}
+.vh-86 {
+	height: 86vh!important;
+}
+.vh-87 {
+	height: 87vh!important;
+}
+.vh-88 {
+	height: 88vh!important;
+}
+.vh-89 {
+	height: 89vh!important;
+}
+.vh-90 {
+	height: 90vh!important;
+}
+.vh-91 {
+	height: 91vh!important;
+}
+.vh-92 {
+	height: 92vh!important;
+}
+.vh-93 {
+	height: 93vh!important;
+}
+.vh-94 {
+	height: 94vh!important;
+}
+.vh-95 {
+	height: 95vh!important;
+}
+.vh-96 {
+	height: 96vh!important;
+}
+.vh-97 {
+	height: 97vh!important;
+}
+.vh-98 {
+	height: 98vh!important;
+}
+.vh-99 {
+	height: 99vh!important;
+}
+.vh-100 {
+	height: 100vh!important;
 }

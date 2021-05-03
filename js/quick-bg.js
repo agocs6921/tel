@@ -1,11 +1,13 @@
-/* Ez a script ez egy gyors háttér beállítást csinál
+/**
+ * Agócs Kevin írta
+ */
+/* Ez a script ez egy gyors háttér beállítást ér el
 a 'bg' egyedi attribútum segítségével */
-
-// lekérjük az összes 'bg' attribútumú elemet és átmegyünk mindegyikek
-document.querySelectorAll("[bg]").forEach((element) => {
+// Lekérjük az összes 'bg' attribútumú elemet és átmegyünk mindegyikek
+document.querySelectorAll("[bg]").forEach(element => {
     // Megnézzük hogy ürese és ha igen akkor vissza megyünk
-    if (element.getAttribute("bg") == null) return;
-
+    if (element.getAttribute("bg") == null)
+        return;
     // Beállítjuk a hátteret
-    element.style.backgroundImage = `url(${element.getAttribute("bg")})`;
-})
+    element["style"].backgroundImage = `url(${element.getAttribute("bg")})`;
+});
