@@ -20,10 +20,5 @@ function calculator() {
     // Kijelezzük
     document.querySelector("#result").innerHTML = `<b title="${human_count}">${Math.round(human_count)}</b> ember fér el egy <b title="${volume}">${Math.round(volume)}</b> m<sup>3</sup>-es medencében`;
 }
-// Függvény a térfogat számításra
-function pool_calc(length, width, depth) {
-    // Egy állandóként kiszámoljuk a térfogatát
-    const volume = length * width * depth;
-    // Vissza küldjük az eredményeket
-    return [volume / human_volume, volume];
-}
+// Függvény a térfogat számításra és az emberek számára
+var pool_calc = (length, width, depth) => [(length * width * depth) / human_volume, length * width * depth];
