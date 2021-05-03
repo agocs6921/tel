@@ -1,8 +1,8 @@
 body{
-    /*background-color:rgba(187, 173, 173, 0.829);*/
+    /* background-color:rgba(187, 173, 173, 0.829); */
     overflow-x: hidden; /* Kikapcsoljuk az alsó slidert */
     margin: 0; /* Elszedjük az alap margót, amit már a bootstrap már megcsinál helyettünk de nem baj, azért itt van */ 
-	/*background-image: url("../images/56488445_403.jpg");*/
+	/* background-image: url("../images/56488445_403.jpg"); */
     -ms-overflow-style: none; /* Eltávolítjuk a oldalsó slidert */
     scrollbar-width: none; /* Ugyan az mint az előző */
 }
@@ -27,7 +27,7 @@ section.title {
     background-position: center;
 }
 
-/* Nem fogom ezt se kommentálni */
+/* Nem fogom ezt kommentálni */
 section.title h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 256px;
@@ -81,7 +81,7 @@ div.type{
         width: 50%!important;
     }
 }
-
+/* asd */
 /* Ez kellett nekem lol
  * ja és  ne görgess */
 .vh-1 {
