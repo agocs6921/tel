@@ -4,18 +4,20 @@ A projekt a földi évszakról szól, a télről. Bemutatjuk magát a telet és 
 
 ![A tél](https://raw.githubusercontent.com/agocs6921/tel/main/images/winter-001-1.jpg)
 
+A hosztolt változata az oldalnak [itt](https://01000011.neocities.org/edutel/) található.
+
 ### A hatalmas csapatunk ezek a részekért felelt:
-- **Lékó Egon**
+- **Egon**
     - Főoldal
-- **Agócs Kevin**
+- **Kevin**
     - A víz
-- **Paragi Jázmin**
+- **Jázmin**
     - Sport
-- **Petran Albert**
+- **Albert**
     - Ünnepek
-- **Ollári Levente**
+- **Levente**
     - Szalámi
-- **Szűcs Martin**
+- **Martin**
     - Téli kaják
 
 ### Tartalom leírás
@@ -29,6 +31,8 @@ A projekt a földi évszakról szól, a télről. Bemutatjuk magát a telet és 
         - Bootrap CSS fájl
     - *./styles/style.css*
         - Az oldalak CSS állománya
+    - *./goldi.css*
+        - Régi kódból megmaradt CSS fájl
 - **JavaScript fájlok**
     - *./js/bootstrap.bundle.min.js*
         - Bootstrap JavaScript fájl
