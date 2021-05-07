@@ -18,7 +18,7 @@ const pool_calc = (length, width, depth) => [(length * width * depth) / human_vo
  * Számológép függvény
  * @returns {void}
  */
-function calculator() {
+const calculator = () => {
     // Az értékeink amik kellenek nekünk
     const [l, w, d] = [
         document.querySelector("#length")["value"],
@@ -32,4 +32,4 @@ function calculator() {
     const [human_count, volume] = pool_calc(l, w, d);
     // Kijelezzük az értékeket normálisan
     document.querySelector("#result").innerHTML = `<b title="${human_count}">${Math.round(human_count)}</b> ember fér el egy <b title="${volume}">${Math.round(volume)}</b> m<sup>3</sup>-es medencében`;
-}
+};

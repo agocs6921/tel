@@ -6,7 +6,7 @@
  * Ez a függvény haszontalan, ne használd!
  * @param {Element} value_source Ez az az elem amely hívta a függvény, 'input'-nak kell lennie
  * @param {string|Element} output_target Az 'id'-e vagy maga az elem ami majd ki fogja jelezni az eredményt
- * @returns {void} Ez neked nem ad semmit :(
+ * @returns {void}
  */
 function human_calculator(value_source, output_target) {
     /**

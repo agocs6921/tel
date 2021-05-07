@@ -5,9 +5,9 @@
 a 'bg' egyedi attribútum segítségével */
 /**
  * Lekérjük az összes 'bg' attribútumú elemet és átmegyünk mindegyikek és az attribútumba írt url alapján beállítjuk a hátteret
- * @returns {void} Semmit nem kapsz tőle :(
+ * @returns {void}
  */
-function initQuickBgs() {
+const init_quick_bgs = () => {
     document.querySelectorAll("[bg]").forEach(element => {
         // Megnézzük hogy ürese és ha igen akkor vissza megyünk
         if (element.getAttribute("bg") == null)
@@ -15,5 +15,5 @@ function initQuickBgs() {
         // Beállítjuk a hátteret
         element["style"].backgroundImage = `url(${element.getAttribute("bg")})`;
     });
-}
-initQuickBgs();
+};
+init_quick_bgs();
