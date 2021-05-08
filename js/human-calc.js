@@ -8,7 +8,7 @@
  * @param {string|Element} output_target Az 'id'-e vagy maga az elem ami majd ki fogja jelezni az eredményt
  * @returns {void}
  */
-function human_calculator(value_source, output_target) {
+const human_calculator = (value_source, output_target) => {
     /**
      * Az érték amit használunk arra hogy kiszámoljuk a víz mennyiségét ami ennyibe belefér
      * @type {number}
@@ -27,13 +27,13 @@ function human_calculator(value_source, output_target) {
      */
     const liters = human_calc(value);
     text_box.innerHTML = `<b title="${liters}">${Math.round(liters)}</b> liter víz férne el <b title="${value}">${Math.round(value)}</b> felnőtt emberben`;
-}
+};
 /**
  * Ez a függvény számolja a litereket
  * @param {number} human_count Emberek száma
  * @returns {number} Literben víz amennyi elfér *human_count* mennyiségű emberben
  */
-function human_calc(human_count) {
+const human_calc = (human_count) => {
     /**
      * Emberi térfogat
      * @type {number}
@@ -45,4 +45,4 @@ function human_calc(human_count) {
      */
     const l = 0.001;
     return ((human_volume * 0.70) * human_count) / l;
-}
+};
