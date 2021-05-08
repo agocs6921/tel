@@ -44,3 +44,10 @@ A hosztolt változata az oldalnak [itt](https://01000011.neocities.org/edutel/) 
         - *water.html* számológép részlegéhez használt JavaScript fájl
     - *./js/quick-bg.js*
         - Gyors háttér beállítás, lényegtelen JavaScript fájl
+- **Mappák**
+    - *./images/*
+        - Képek mappája
+    - *./js/*
+        - JavaScript fájlok mappája
+    - *./styles/*
+        - CSS fájlok mappája
